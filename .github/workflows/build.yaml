@@ -18,7 +18,7 @@ jobs:
 
     - name: Download musl toolchain
       run: |
-        wget https://musl.cc/mipsel-linux-muslsf-cross.tgz
+        wget  -4 https://musl.cc/mipsel-linux-muslsf-cross.tgz
         tar -xzf mipsel-linux-muslsf-cross.tgz
 
     - name: Build
